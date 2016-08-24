@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Joseph Widjaja - Software Engineer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
+	<link href="css/scrolling-nav.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,24 +32,32 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" role="navigation">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Welcome
+                        Logo here
                     </a>
                 </li>
                 <li>
-                    <a href="/">Home</a>
+                    <a class="page-scroll" href="#intro">Top</a>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="dropdown-space">Work</li>
+							<li><a class="page-scroll" href="#experience">CSE Tutor</a></li>
+							<li class="dropdown-space">Projects</li>
+							<li><a class="page-scroll" href="#experience">WhoseChore</a></li>
+							<li><a class="page-scroll" href="#experience">Fizzle</a></li>
+							<li><a class="page-scroll" href="#experience">Project 3</a></li>
+						</ul>
                 </li>
                 <li>
-                    <a href="/projects">Projects</a>
-                </li>
-                <li>
-                    <a href="test.txt">Resume</a>
+                    <a class="page-scroll" href="#resume">Resume</a>
                 </li>
             </ul>
         </div>
@@ -56,25 +65,72 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
+			<button href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</button>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-						<button href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-							<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-						</button>
-                        <h1>Joseph Widjaja</h1>
-                        <p> Hi guys, I am the best.</p>
-                        <p> Side bar is cool.</p>
+                  				
+						<!-- Intro Section -->
+						<section id="intro" class="intro-section">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12">
+										<h1>Joseph Widjaja</h1>
+										<p> Master of memes <p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- About Section -->
+						<section id="about" class="about-section">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12">
+										<h1>About</h1>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Services Section -->
+						<section id="experience" class="experience-section">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12">
+										<h1>Experience</h1>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Contact Section -->
+						<section id="resume" class="resume-section">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12">
+										<h1>Resume</h1>
+										<a href="test.txt" class="btn btn-default">Download</a>
+									</div>
+								</div>
+							</div>
+						</section>
+						
                     </div>
                 </div>
             </div>
         </div>
+		
+		
+		
         <!-- /#page-content-wrapper -->
 
     </div>
     <!-- /#wrapper -->
-
-    <!-- jQuery -->
+	
+	<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -87,6 +143,11 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	
 
 </body>
 
