@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -15,8 +15,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-	  <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" href= "css/aos.css" >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,111 +28,185 @@
 
 </head>
 
-<body>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-    <div id="wrapper">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper" role="navigation">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a>
-                        Logo here
-                    </a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#intro">Top</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li class="dropdown-space">Work</li>
-							<li><a class="page-scroll" href="#experience">CSE Tutor</a></li>
-							<li class="dropdown-space">Projects</li>
-							<li><a class="page-scroll" href="#experience">WhoseChore</a></li>
-							<li><a class="page-scroll" href="#experience">Fizzle</a></li>
-							<li><a class="page-scroll" href="#experience">Project 3</a></li>
-						</ul>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#resume">Resume</a>
-                </li>
-            </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">JW</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+					<li>
+                        <a href="test.txt">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /#sidebar-wrapper -->
+        <!-- /.container -->
+    </nav>
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <button href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-                				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-                			</button>
-
-						<!-- Intro Section -->
-						<section id="intro" class="intro-section">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										<h1>Joseph Widjaja</h1>
-										<p> Master of memes <p>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<!-- About Section -->
-						<section id="about" class="about-section">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										<h1>About</h1>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<!-- Services Section -->
-						<section id="experience" class="experience-section">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										<h1>Experience</h1>
-									</div>
-								</div>
-							</div>
-						</section>
-
-						<!-- Contact Section -->
-						<section id="resume" class="resume-section">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-12">
-										<h1>Resume</h1>
-										  <a href="test.txt" class="btn btn-default">Download</a>
-                      <img data-aos="fade-up" src="me.jpg">
-									</div>
-								</div>
-							</div>
-						</section>
-
-                    </div>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Joseph Widjaja</h1>
+                    <p>Master of memes</p>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Education</h1>
+					<h2>University of California, San Diego </h2>
+					<p>Bachelor of Science, Computer Science - Graduating Fall 2017, GPA 3.49 </p>
+					<h2>Diablo Valley College </h2>
+					<p>Associate of Science, Computer Science, August 2015, GPA 3.85 </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Skills</h1>
+					<p> Languages: C, C++, Java, Python, Ruby </p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Contact Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Projects</h1>
+					<a class="menu_links" data-toggle="modal" data-target="#fizzle">
+						<img data-aos="fade-up" src="fizzle.png" class="img-circle" >
+					</a>
+					
+					<a class="menu_links" data-toggle="modal" data-target="#whosechore">
+						<img data-aos="fade-up" src="whosechore.png" class="img-circle" style="height:225px;">
+					</a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Contact Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Experience</h1>
+					<p> CSE Tutor, UCSD Computer Science and Engineering Department</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- /#page-content-wrapper -->
-
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact</h1>
+					<img class="img" data-aos="fade-up" src="me.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Modal Fizzle -->
+  <div class="modal fade" id="fizzle" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Fizzle</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
-    <!-- /#wrapper -->
+  </div>
+  
+  	<!-- Modal WhoseChore -->
+  <div class="modal fade" id="whosechore" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">WhoseChore</h4>
+        </div>
+        <div class="modal-body">
+          <p>WhoseChore is a web application developed using Ruby on Rails framework and PostgreSQL. 
+		  It helps housemates manage chore responsibilities through the application's chore rotation feature. 
+		  Coupled with email reminders, getting tasks done has never been easier. </p>
+		  <a href="http://whosechore2.herokuapp.com/">Check it out.</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
-	  <!-- jQuery -->
+
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -141,21 +215,12 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
-    <script src="js/aos.js"></script>
+	
+	<script src="js/aos.js"></script>
 
     <script>
       AOS.init();
     </script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
 
 </body>
 
