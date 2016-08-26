@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Joseph Widjaja - Software Engineer</title>
+    <title>Joseph Widjaja</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">JW</a>
             </div>
@@ -55,16 +54,13 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#education">Education</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-					<li>
-                        <a class="page-scroll" href="#experience">Experience</a>
                     </li>
 					<li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -85,23 +81,28 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Joseph Widjaja</h1>
-                    <p>Master of memes</p>
+					<p class="lead" style="text-align: center;">Master of memes<p>
+					<a href="test.txt" class="btn btn-primary btn-x1 page-scroll"> My Resume</a>
+					<img class="img" data-aos="fade-up" src="kappa.png" style="width:128px; padding-bottom: 20px;">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="education" class="education-section">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Education</h1>
-					<h2>University of California, San Diego </h2>
-					<p>Bachelor of Science, Computer Science - Graduating Fall 2017, GPA 3.49 </p>
-					<h2>Diablo Valley College </h2>
-					<p>Associate of Science, Computer Science, August 2015, GPA 3.85 </p>
+                <div class="col-lg-5 col-sm-6">
+                    <h2 style="text-align: left">About me</h2>
+					<p class="lead" data-aos="fade-up">I'm studying Computer Science at UC San Diego. I'm currently a CSE Tutor for the UCSD Computer Science and Engineering Department. 
+					I help students overcome programming challenges and enjoy sharing the feeling of accomplishment when code finally works. I have experience
+					using Ruby as a server-side language to query an SQL database and iOS app development.
+					In my spare time, I like playing badminton and games. In fact, I am a member of UCSD Badminton and UCSD's CSL Dota 2 team</p>
                 </div>
+				<div class="col-lg-5 col-lg-offset-2 colsm-6">
+				<img class="img-responsive" data-aos="fade-up" src="me2.jpg" width="450" style="float: right;">
+				</div>
             </div>
         </div>
     </section>
@@ -110,9 +111,18 @@
     <section id="skills" class="skills-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Skills</h1>
-					<p> Languages: C, C++, Java, Python, Ruby </p>
+				<h2>Skills</h2>
+                <div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="brackets.png" style="width:128px; padding-bottom: 20px;">
+					<p  class="lead" data-aos="fade-up" style="text-align: center"> Languages: C++, C, Java, Python, Ruby, SQL, Swift, HTML, CSS, JavaScript, JQuery </p>
+                </div>
+				<div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="terminal.png" style="width:128px; padding-bottom: 20px;">
+					<p class="lead" data-aos="fade-up" style="text-align: center"> Tools: Git, xCode, Eclipse, Visual Studio</p>
+                </div>
+				<div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="computer.png" style="width:128px; padding-bottom: 20px;">
+					<p class="lead" data-aos="fade-up" style="text-align: center"> Operating Systems: OSX, Unix, iOS, Windows</p>
                 </div>
             </div>
         </div>
@@ -121,30 +131,45 @@
 	<!-- Contact Section -->
     <section id="projects" class="projects-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Projects</h1>
+            <div class="row-md-2">
+				<h2>My Projects</h2>
+                <div class="col-sm-6">
+					<div class="image">
 					<a class="menu_links" data-toggle="modal" data-target="#fizzle">
-						<img data-aos="fade-up" src="fizzle.png" class="img-circle" >
+						<img data-aos="fade-up" src="fizzle.png" class="img-responsive">
 					</a>
-					
+					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> Fizzle, find friends and quench thirst. </span></h5>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="image">
 					<a class="menu_links" data-toggle="modal" data-target="#whosechore">
-						<img data-aos="fade-up" src="whosechore.png" class="img-circle" style="height:225px;">
+						<img data-aos="fade-up" src="whosechore.png" class="img-responsive">
 					</a>
+					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> WhoseChore, keep the apartment clean. </span></h5>
+					</div>
+				</div>
+			</div>
+			<div class="row-md-2">		
+				<div class="col-sm-6">
+					<div class="image">
+					<a class="menu_links" data-toggle="modal" data-target="#senscalc">
+						<img data-aos="fade-up" src="senscalc.png" class="img-responsive">
+					</a>
+					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> SensCalc, a simple sensitivy calculator.  </span></h5>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="image">
+					<a class="menu_links" data-toggle="modal" data-target="#project4">
+						<img data-aos="fade-up" src="kappapride.png" class="img-responsive">
+					</a>
+					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> I love cancer. </span></h5>
+					</div>
                 </div>
+			
             </div>
-        </div>
-    </section>
-	
-	<!-- Contact Section -->
-    <section id="experience" class="experience-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Experience</h1>
-					<p> CSE Tutor, UCSD Computer Science and Engineering Department</p>
-                </div>
-            </div>
+			<a href="http://github.com/bbqplox" class="btn btn-primary btn-x1 page-scroll" data-aos="fade-up"> My GitHub</a>
         </div>
     </section>
 
@@ -153,8 +178,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact</h1>
-					<img class="img" data-aos="fade-up" src="me.jpg">
+                    <h2>Contact</h2>
+					<div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="mail.png" style="width:128px; padding-bottom: 20px;">
+					<p class="lead" data-aos="fade-up" style="text-align: center"> jojowidjaja@gmail.com </p>
+					</div>
+					<div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="phone.png" style="width:128px; padding-bottom: 20px;">
+					<p class="lead" data-aos="fade-up" style="text-align: center"> 510-316-8529</p>
+					</div>
+					<div class="col-sm-4">
+					<img class="img" data-aos="fade-up" src="location.png" style="width:128px; padding-bottom: 20px;">
+					<p class="lead" data-aos="fade-up" style="text-align: center"> La Jolla, CA 92121</p>
+					</div>
+					
                 </div>
             </div>
         </div>
@@ -171,7 +208,12 @@
           <h4 class="modal-title">Fizzle</h4>
         </div>
         <div class="modal-body">
-          <p>Some text in the modal.</p>
+          <p class="lead">Fizzle is an iOS application built with Swift and Firebase. Users are able to generate 
+		  drink recipes based on ingredients they already have and find other nearby users to share with.
+		  In the app's development I was heavily involved in the design of the user interface. The main focus
+		  of the UI design involves minimalistic icons and consistent system status updating for easy navigation
+		  I also part of making the app... </p>
+		  <a href="https://medium.com/cogs-187a-summer-2016/vision-behind-team-byteu-61ffa91d9edd#.5y2yv5nnj">Read more about it here.</a>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -192,10 +234,56 @@
           <h4 class="modal-title">WhoseChore</h4>
         </div>
         <div class="modal-body">
-          <p>WhoseChore is a web application developed using Ruby on Rails framework and PostgreSQL. 
+          <p class="lead"> WhoseChore is a web application developed using Ruby on Rails framework and PostgreSQL. 
 		  It helps housemates manage chore responsibilities through the application's chore rotation feature. 
 		  Coupled with email reminders, getting tasks done has never been easier. </p>
 		  <a href="http://whosechore2.herokuapp.com/">Check it out.</a>
+		  <img class="img-responsive" src="whosechore2.png" style="width:512px; padding-bottom: 20px;"> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+    	<!-- Modal SensCalc -->
+  <div class="modal fade" id="senscalc" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal SensCalc -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">SensCalc</h4>
+        </div>
+        <div class="modal-body">
+          <p class="lead"> A simple mouse sensitivity calculator for gaming made with JavaScript and jQuery.
+		  <a> Check it out.</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+      	<!-- Modal WhoseChore -->
+  <div class="modal fade" id="project4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Kappa</h4>
+        </div>
+        <div class="modal-body">
+          <p class="lead"> I love Twitch chat.
+		  <img class="img-responsive" src="kappa.png" style="width:512px; padding-bottom: 20px;"> 
+		  <a href="http://twitch.tv/"> Check it out.</a>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

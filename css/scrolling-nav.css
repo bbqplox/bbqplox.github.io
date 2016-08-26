@@ -5,22 +5,63 @@
  */
 
 body {
-    width: 100%;
-    height: 100%;
+  
 }
 
 html {
-    width: 100%;
-    height: 100%;
-}
-
-img {
- height: auto;
- width: 350px;
+ 
 }
 
 button{
 	padding: 10px;
+}
+
+img {
+ padding-top: 30px;
+ height: auto;
+ width: 350px;
+}
+
+h1{
+    font-size: 1.5cm;
+    font-weight: bold;
+}
+
+p{
+	
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h5 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h5 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+	text-align: left;
+}
+
+.about{
+	text-align: left;
 }
 
 a.menu_links { 
@@ -51,14 +92,17 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
+	width: 100%;
     padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
     background: #fff;
 }
 
-.education-section {
+.about-section {
     height: 100%;
     padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
     background: #eee;
 }
@@ -66,6 +110,7 @@ of those sections to manage the look and feel of the site. */
 .skills-section {
     height: 100%;
     padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
     background: #fff;
 }
@@ -73,20 +118,15 @@ of those sections to manage the look and feel of the site. */
 .projects-section {
     height: 100%;
     padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
     background: #eee;
-}
-
-.experience-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
+	padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
