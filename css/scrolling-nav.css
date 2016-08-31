@@ -5,11 +5,11 @@
  */
 
 body {
-  
+
 }
 
 html {
- 
+
 }
 
 button{
@@ -28,12 +28,12 @@ h1{
 }
 
 p{
-	
+
 }
 
 header {
   position: relative;
-  background-image: url('../gay.png');
+  background-image: url('../background.jpg');
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -41,30 +41,30 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  
+
   text-align: center;
   color: white;
 }
 
-.image { 
-   position: relative; 
+.image {
+   position: relative;
    width: 100%; /* for IE 6 */
 }
 
-h5 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+h5 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
 }
 
-h5 span { 
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+h5 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   padding: 10px;
 }
 
 .lead {
@@ -79,8 +79,8 @@ h5 span {
 	text-align: left;
 }
 
-a.menu_links { 
-	cursor: pointer; 
+a.menu_links {
+	cursor: pointer;
 }
 
 .img-circle {
@@ -109,7 +109,7 @@ a.menu_links {
     padding-top: 150px;
 	padding-bottom: 150px;
     text-align: center;
-    
+
 }
 
 .about-section {
