@@ -34,17 +34,19 @@ p{
 
 header {
   position: relative;
-  background-image: url('../images/background.jpg');
-  width: 100%;
+  background-image: url('../images/background.png');
+  height: 100%;
+	width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
+	background-color: #fff;
 
   text-align: center;
-  color: white;
+  color: #000;
 }
 
 .image {
