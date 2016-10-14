@@ -51,7 +51,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="page-scroll" href="#intro"></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -62,10 +62,10 @@
                     <li>
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
-					<li>
+					          <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-					<li>
+					          <li>
                         <a href="JoWresume.pdf">Resume</a>
                     </li>
                 </ul>
@@ -83,7 +83,7 @@
                 <div class="col-lg-12">
                     <h1>Joseph Widjaja</h1>
 					          <p class="lead" style="text-align: center;">Student, Tutor, Developer<p>
-					          <a href="JoWresume.pdf" class="btn btn-primary btn-x1 page-scroll"> My Resume</a>
+					          <a href="JoWresume.pdf" class="btn btn-default btn-lg"> My Resume</a>
                 </div>
             </div>
         </div>
@@ -94,15 +94,15 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <h2 style="text-align: left">About me</h2>
+                <div class="col-lg-4 col-sm-6">
+                    <h2 style="text-align: left" data-aos="fade-up">About me</h2>
 					<p class="lead" data-aos="fade-up">I'm Joseph Widjaja, a Computer Science student at UC San Diego.
-          I'm currently a CSE Tutor for the UCSD Computer Science and Engineering Department.
-					I'm interested in software development and UI/UX design.
-					I'm a member of UCSD Badminton and UCSD's CSL Dota 2 team</p>
+           I'm interested in software development and UI/UX design.<br><br>
+					I'm currently a CSE Tutor for the UCSD Computer Science and Engineering Department. I have tutored CSE 8B and CSE 100.
+					I'm a member of UCSD Badminton and UCSD's Division I Dota 2 team competing in CSL.</p>
                 </div>
-				<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-					<img class="img-responsive" data-aos="fade-up" src="images/me2.jpg" width="450" style="float: right;">
+				<div class="col-lg-4 col-lg-offset-2 col-sm-6">
+					<img class="img-responsive" data-aos="fade-up" src="images/me2.jpg" width="450" style="float: center;">
 				</div>
             </div>
         </div>
@@ -112,18 +112,18 @@
     <section id="skills" class="skills-section">
         <div class="container">
             <div class="row">
-				<h2>Skills</h2>
+				<h2 data-aos="fade-up">Skills</h2>
                 <div class="col-sm-4">
 					<img class="img" data-aos="fade-up" src="images/brackets.png" style="width:128px; padding-bottom: 20px;">
-					<p  class="lead" data-aos="fade-up" style="text-align: center"> Languages: C++, C, Java, Python, Swift, Ruby, SQL, HTML, CSS, JavaScript, JQuery </p>
+					<p  class="lead" data-aos="fade-up" style="text-align: center"> Languages: <br> C++, C, Java, Python, Swift, Ruby, SQL, HTML, CSS, JavaScript, JQuery </p>
                 </div>
 				<div class="col-sm-4">
 					<img class="img" data-aos="fade-up" src="images/terminal.png" style="width:128px; padding-bottom: 20px;">
-					<p class="lead" data-aos="fade-up" style="text-align: center"> Tools: Git, xCode, Eclipse, Visual Studio</p>
+					<p class="lead" data-aos="fade-up" style="text-align: center"> Tools: <br> Git, xCode, Eclipse, Visual Studio</p>
                 </div>
 				<div class="col-sm-4">
 					<img class="img" data-aos="fade-up" src="images/computer.png" style="width:128px; padding-bottom: 20px;">
-					<p class="lead" data-aos="fade-up" style="text-align: center"> Operating Systems: Android, iOS, OSX, Unix, Windows</p>
+					<p class="lead" data-aos="fade-up" style="text-align: center"> Operating Systems: <br> Android, iOS, Mac, Unix, Windows</p>
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
     <section id="projects" class="projects-section">
         <div class="container">
              <div class="row-md-2">
-				<h2>My Projects</h2>
+				<h2 data-aos="fade-up">My Projects <br><br> <a href="https://github.com/bbqplox" class="btn btn-default btn-lg" data-aos="fade-up"> GitHub</a></h2>
                 <div class="col-sm-6">
 					<div class="image">
 					<a class="menu_links" data-toggle="modal" data-target="#fizzle">
@@ -141,6 +141,9 @@
 					</a>
 					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> Fizzle, find friends and quench thirst. </span></h5>
 					</div>
+          <div class="btn-tag" data-aos="fade-up">Android</div>
+          <div class="btn-tag" data-aos="fade-up">Java</div>
+          <div class="btn-tag" data-aos="fade-up">Firebase</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="image">
@@ -149,6 +152,8 @@
 					</a>
 					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> WhoseChore, keep the apartment clean. </span></h5>
 					</div>
+          <div class="btn-tag" data-aos="fade-up">Ruby on Rails</div>
+          <div class="btn-tag" data-aos="fade-up">PostgreSQL</div>
 				</div>
 			</div>
 			<div class="row-md-2">
@@ -158,9 +163,12 @@
 					<a class="menu_links" data-toggle="modal" data-target="#wooper">
 						<img data-aos="fade-up" src="images/memos.jpg" class="img-responsive">
 					</a>
-					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> Meaningful Memos, self assurance and inspiration. </span></h5>
+					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> Meaningful Memos, keep track. </span></h5>
 					</div>
-                </div>
+          <div class="btn-tag" data-aos="fade-up">iOS</div>
+          <div class="btn-tag" data-aos="fade-up">Swift 3</div>
+          <div class="btn-tag" data-aos="fade-up">Firebase</div>
+          </div>
 
 				<div class="col-sm-6">
 					<div class="image">
@@ -169,6 +177,8 @@
 					</a>
 					<h5 class="lead" data-aos="fade-up" style="text-align: center"> <span> SensCalc, a simple sensitivy calculator.  </span></h5>
 					</div>
+          <div class="btn-tag">JavaScript</div>
+          <div class="btn-tag">jQuery</div>
 				</div>
 
         </div>
@@ -179,7 +189,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Contact</h2>
+                    <h2 data-aos="fade-up">Contact</h2>
 					<div class="col-sm-4">
 					<img class="img" data-aos="fade-up" src="images/mail.png" style="width:128px; padding-bottom: 20px;">
 					<p class="lead" data-aos="fade-up" style="text-align: center"> jojowidjaja@gmail.com </p>
@@ -268,7 +278,7 @@
         </div>
         <div class="modal-body">
           <p class="lead"> iOS application developed using Swift 3 on Xcode. Users are able to log events and view flagged memos from other online users. </p>
-          <img class="img-responsive" src="images/memo.jpg" style="width:512px; padding-bottom: 20px;">
+          <img class="img-responsive" src="images/memo.jpg" style="width: 256px; padding-bottom: 20px;">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

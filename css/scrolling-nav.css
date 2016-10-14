@@ -4,16 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-
-}
-
-html {
-
-}
-
 button{
 	padding: 10px;
+}
+
+body{
+	font-family: "Avenir";
 }
 
 img {
@@ -28,10 +24,6 @@ h1{
     font-weight: bold;
 }
 
-p{
-
-}
-
 header {
   position: relative;
   background-image: url('../images/background.png');
@@ -44,14 +36,27 @@ header {
   -o-background-size: cover;
   background-position: center;
 	background-color: #fff;
-
   text-align: center;
   color: #000;
 }
 
-.image {
-   position: relative;
-   width: 100%; /* for IE 6 */
+.btn-tag{
+	background-color: #434343;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	border-radius: 2px;
+}
+
+.btn-default {
+	border: 2px solid #000;
+	color: #000;
+	background-color: transparent;
 }
 
 h5 {
@@ -68,6 +73,11 @@ h5 span {
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
 }
 
 .lead {
@@ -93,6 +103,7 @@ a.menu_links {
 
 @media(min-width:767px) {
     .navbar {
+				background: #eaeafa;
         padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -107,11 +118,14 @@ a.menu_links {
 /* Sections */
 
 .intro-section {
-    height: 100%;
+		display: flex;
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
+    height: 100vh;
+		min-height: 100%;
     padding-top: 150px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
     text-align: center;
-
 }
 
 .about-section {
@@ -119,29 +133,29 @@ a.menu_links {
     padding-top: 150px;
 	padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+    background: #eaeafa;
 }
 
 .skills-section {
     height: 100%;
     padding-top: 150px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .projects-section {
     height: 100%;
     padding-top: 150px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+    background: #eaeafa;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
