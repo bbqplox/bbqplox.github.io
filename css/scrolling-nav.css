@@ -9,7 +9,15 @@ button{
 }
 
 body{
-	font-family: "Avenir";
+	font-family: 'Lato', sans-serif;
+	background: #eee;
+}
+
+.center{
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img {
@@ -29,14 +37,13 @@ header {
   background-image: url('../images/background.png');
   height: 100%;
 	width: 100%;
-  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-	background-color: #fff;
   text-align: center;
+	background-color: #fff;
   color: #000;
 }
 
@@ -51,6 +58,25 @@ header {
 	margin-right: 6px;
 	margin-bottom: 6px;
 	border-radius: 2px;
+}
+
+.bounce {
+  position:fixed;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  background:red;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
 }
 
 .btn-default {
@@ -92,8 +118,16 @@ h5 span {
 	text-align: left;
 }
 
-a.menu_links {
-	cursor: pointer;
+
+a.darken {
+    display: inline-block;
+		cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
 }
 
 .img-circle {
@@ -104,6 +138,11 @@ a.menu_links {
 @media(min-width:767px) {
     .navbar {
 				background: #eaeafa;
+				border-style: solid;
+				border-width: 2px;
+				border-bottom-width:2px;
+				border-bottom-color: #d9d9d9;
+				border-bottom-style: solid;
         padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -131,7 +170,7 @@ a.menu_links {
 .about-section {
     height: 100%;
     padding-top: 150px;
-	padding-bottom: 150px;
+		padding-bottom: 150px;
     text-align: center;
     background: #eaeafa;
 }
@@ -141,7 +180,7 @@ a.menu_links {
     padding-top: 150px;
 		padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .projects-section {
@@ -157,5 +196,5 @@ a.menu_links {
     padding-top: 150px;
 		padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }

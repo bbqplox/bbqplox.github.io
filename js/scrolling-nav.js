@@ -17,3 +17,10 @@ $(function() {
         event.preventDefault();
     });
 });
+
+//for darken on hover
+$('.darken').hover(function() {
+    $(this).find('img').fadeTo(100, 0.5);
+}, function() {
+    $(this).find('img').fadeTo(100, 1);
+});
