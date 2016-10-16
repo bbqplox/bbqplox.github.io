@@ -61,14 +61,16 @@ header {
 }
 
 .bounce {
-  position:fixed;
+  position: fixed;
+	z-index: 101;
   left:50%;
   bottom:0;
   margin-top:-25px;
   margin-left:-25px;
+	margin-bottom:50px;
   height:50px;
   width:50px;
-  background:red;
+  background:transparent;
   -webkit-animation:bounce 1s infinite;
 }
 
@@ -83,6 +85,10 @@ header {
 	border: 2px solid #000;
 	color: #000;
 	background-color: transparent;
+}
+
+.cover{
+
 }
 
 h5 {

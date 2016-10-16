@@ -24,3 +24,11 @@ $('.darken').hover(function() {
 }, function() {
     $(this).find('img').fadeTo(100, 1);
 });
+
+//for scrolling window
+function scrollWin(x, y) {
+  $('.cover').stop().animate({
+    scrollLeft: '+=' + x,
+    scrollTop: '+=' + y
+  });
+}
